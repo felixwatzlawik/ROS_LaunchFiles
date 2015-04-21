@@ -1,8 +1,8 @@
  <!-- http://pastebin.com/VesCy68T-->
 <launch>
  
-<include file="launchfile1.launch"/>
-<include file="launchfile2.launch"/>
+<include file="s300_launch.launch"/>
+<include file="hector_mapping.launch"/>
 
 <node name="modelviz" pkg="rviz" type="rviz" output="screen"/>
  
