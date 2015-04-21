@@ -1,0 +1,11 @@
+ <!-- http://pastebin.com/VesCy68T-->
+<launch>
+ 
+<include file="launchfile1.launch"/>
+<include file="launchfile2.launch"/>
+
+<node name="modelviz" pkg="rviz" type="rviz" output="screen"/>
+    <!-- <node pkg="dynamic_reconfigure" type="dynparam" name="dynparam" args="set /camera/driver depth_registration true" /> -->
+	
+
+</launch>

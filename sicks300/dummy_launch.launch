@@ -1,0 +1,12 @@
+<launch>
+
+	<!-- start laser driver -->
+	<node name="laser" pkg="cob_sick_s300" type="cob_sick_s300" respawn="false" output="screen">
+		<rosparam command="load" file="dummy_config.yaml"/>
+
+	</node>
+
+   
+
+
+</launch>
